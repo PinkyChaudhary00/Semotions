@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<!--    <div id="wrapper" class="divided">-->
+	<link href="../static/css/homepage.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<div id="wrapper" class="divided">
+			<div class="divisions">
+				<div class="heading">
+					<h1>SEMOTIONS</h1>
+					<h2>The Emotion Based Music Player</h2>
+				</div>
+				<div class="buttons_value">
+					<input type="submit" name="about" id="about" value="About" class="button special" onclick="location.href = '/about'"/>
+					<input type="submit" name="login" id="login" value="Login" class="button special" onclick="location.href = '/spotify-auth'"/>
+				</div>
+			</div>
+	</div>
+
+{% endblock %}
